@@ -1,7 +1,5 @@
-Before you use this application, you'll need to be running Mamp or Xamp. Make sure to place the application's directory in your htdocs directory.
+##Background Story
+I was asked to do this as part of an assessment by a potential employer to gauge my competency with PHP, JavaScript, HTML, CSS, AJAX, and databases. I'd never made a phone boook app before, but I knocked this out over the weekend, giving it about 6-8 hours in total.
 
-You'll then need to run the provided sql script (phonebook.sql) in whatever programmming you're using to manage your databases. If you're using Mamp/Xamp you'll probably be using phpMyAdmin.
-
-You may also have to change the hostname, username, and password parameters in the mysql_connect statements inside addContact.php and removeContact.php. 
-
-After that you should be able to interact with your databases via the front-end in index.php.
+## What It Does
+They requrested a phonebook application that allows a user to enter the first name, last name, and phone number of a contact in a form field, and then stores that information in a database, before updating your list of current contacts--where the user has the ability to delete their contacts. So it does that, and also adds Bart Simpson as your first contact.
